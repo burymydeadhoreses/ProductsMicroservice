@@ -17,7 +17,7 @@ scrape_configs:
 
 ### Start command
 ```
-sudo docker run -d --name=prometheus -p 127.0.0.1:9090:9090 -v /home/defectly/burymydeadhoreses/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
+sudo docker run -d --name=prometheus -p 127.0.0.1:9090:9090 -v /home/burymydeadhoreses/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
 ```
 
 ## Grafana
